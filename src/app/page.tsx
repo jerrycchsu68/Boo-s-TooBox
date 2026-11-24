@@ -44,7 +44,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/60">
-          上課抽人、讀書專注——學習和生活裡的小需求，
+          上課抽人、讀書專注、查生字——學習和生活裡的小需求，
           <br className="hidden sm:block" />
           這裡都有一個簡單又好看的工具幫你搞定。
         </p>
@@ -84,13 +84,13 @@ export default function Home() {
       </section>
 
       {/* ===== 工具介紹 ===== */}
-      <section id="tools" className="relative mx-auto max-w-4xl scroll-mt-20 px-4 pb-24 sm:px-6">
+      <section id="tools" className="relative mx-auto max-w-6xl scroll-mt-20 px-4 pb-24 sm:px-6">
         <div className="mb-12 flex flex-col items-center gap-3 text-center">
           <span className="text-sm font-semibold uppercase tracking-[0.3em] text-fuchsia-300">Tools</span>
           <h2 className="text-3xl font-black sm:text-4xl">挑一個工具開始吧</h2>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-3">
           {TOOLS.map((t, i) => (
             <Link
               key={t.href}

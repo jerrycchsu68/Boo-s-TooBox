@@ -36,4 +36,15 @@ export const TOOLS: Tool[] = [
     glow: "group-hover:shadow-rose-500/30",
     text: "text-rose-300",
   },
+  {
+    href: "/lookup",
+    name: "生字查詢",
+    emoji: "📖",
+    tagline: "一個字，查清楚",
+    description: "輸入國字，馬上查到注音、部首、筆畫、字義和造詞，還能聽發音、看筆順動畫。",
+    features: ["注音與多音字", "部首與筆畫", "字義與例句", "造詞與筆順動畫"],
+    gradient: "from-amber-300 to-orange-600",
+    glow: "group-hover:shadow-amber-500/30",
+    text: "text-amber-300",
+  },
 ];
